@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Topic of Section | AnVIL Book Name</title>
+  <title>About the Authors | AnVIL Book Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Topic of Section | AnVIL Book Name" />
+  <meta property="og:title" content="About the Authors | AnVIL Book Name" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Topic of Section | AnVIL Book Name" />
+  <meta name="twitter:title" content="About the Authors | AnVIL Book Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/anvil_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="a-new-chapter.html"/>
-<link rel="next" href="about-the-authors.html"/>
+<link rel="prev" href="topic-of-section.html"/>
+<link rel="next" href="references.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -223,126 +223,138 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/dasl_thin_main_image.png">
 </div>
-<div id="topic-of-section" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Topic of Section</h1>
-<p>You can write all your text in sections like this!</p>
-<div id="subtopic" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Subtopic</h2>
-<p>Here’s a subheading and some text in this subsection!</p>
-<div id="code-examples" class="section level3" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> Code examples</h3>
-<p>You can demonstrate code like this:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="topic-of-section.html#cb2-1" aria-hidden="true" tabindex="-1"></a>output_dir <span class="ot">&lt;-</span> <span class="fu">file.path</span>(<span class="st">&quot;resources&quot;</span>, <span class="st">&quot;code_output&quot;</span>)</span>
-<span id="cb2-2"><a href="topic-of-section.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">dir.exists</span>(output_dir)) {</span>
-<span id="cb2-3"><a href="topic-of-section.html#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dir.create</span>(output_dir)</span>
-<span id="cb2-4"><a href="topic-of-section.html#cb2-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
-<p>And make plots too:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="topic-of-section.html#cb3-1" aria-hidden="true" tabindex="-1"></a>hist_plot <span class="ot">&lt;-</span> <span class="fu">hist</span>(iris<span class="sc">$</span>Sepal.Length)</span></code></pre></div>
-<p><img src="resources/images/02-chapter_of_course_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<p>You can also save these plots to file:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="topic-of-section.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">png</span>(<span class="fu">file.path</span>(output_dir, <span class="st">&quot;test_plot.png&quot;</span>))</span>
-<span id="cb4-2"><a href="topic-of-section.html#cb4-2" aria-hidden="true" tabindex="-1"></a>hist_plot</span></code></pre></div>
-<pre><code>## $breaks
-## [1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0
-## 
-## $counts
-## [1]  5 27 27 30 31 18  6  6
-## 
-## $density
-## [1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000
-## [8] 0.08000000
-## 
-## $mids
-## [1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75
-## 
-## $xname
-## [1] &quot;iris$Sepal.Length&quot;
-## 
-## $equidist
-## [1] TRUE
-## 
-## attr(,&quot;class&quot;)
-## [1] &quot;histogram&quot;</code></pre>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="topic-of-section.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
-<pre><code>## png 
-##   2</code></pre>
-</div>
-<div id="image-example" class="section level3" number="3.1.2">
-<h3><span class="header-section-number">3.1.2</span> Image example</h3>
-<p>How to include a Google slide. It’s simplest to use the <code>ottrpal</code> package:</p>
-<p><img src="resources/images/02-chapter_of_course_files/figure-html/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" width="480" style="display: block; margin: auto;" /></p>
-<p>But if you have the slide or some other image locally downloaded you can also use html like this:</p>
-<p><img src="resources/images/02-chapter_of_course_files/figure-html/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" /></p>
-</div>
-<div id="video-examples" class="section level3" number="3.1.3">
-<h3><span class="header-section-number">3.1.3</span> Video examples</h3>
-<p>To show videos in your course, you can use markdown syntax like this:</p>
-<p><a href="https://www.youtube.com/embed/VOCYL-FNbr0">A video we want to show</a></p>
-<p>Alternatively, you can use <code>knitr::include_url()</code> like this:
-Note that we are using <code>echo=FALSE</code> in the code chunk because we don’t want the code part of this to show up.
-If you are unfamiliar with <a href="https://rmarkdown.rstudio.com/lesson-3.html">how R Markdown code chunks work, read this</a>.</p>
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px">
-</iframe>
-<p>OR this works:</p>
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px">
-</iframe>
-</div>
-<div id="links-to-files" class="section level3" number="3.1.4">
-<h3><span class="header-section-number">3.1.4</span> Links to files</h3>
-<p>This works:</p>
-<iframe src="https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf" width="672" height="800px">
-</iframe>
-<p>Or this:</p>
-<p><a href="https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf">This works</a>.</p>
-<p>Or this:</p>
-<iframe src="https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf" width="672" height="800px">
-</iframe>
-</div>
-<div id="links-to-websites" class="section level3" number="3.1.5">
-<h3><span class="header-section-number">3.1.5</span> Links to websites</h3>
-<p>Examples of including a website link.</p>
-<p>This works:</p>
-<iframe src="https://yihui.org" width="672" height="400px">
-</iframe>
-<p>OR this:</p>
-<div class="figure">
-<img src="https://yihui.org" alt="" />
-<p class="caption">Another link</p>
-</div>
-<p>OR this:</p>
-<iframe src="https://yihui.org" width="672" height="400px">
-</iframe>
-</div>
-<div id="citation-examples" class="section level3" number="3.1.6">
-<h3><span class="header-section-number">3.1.6</span> Citation examples</h3>
-<p>We can put citations at the end of a sentence like this <span class="citation">(<a href="#ref-rmarkdown2021" role="doc-biblioref">Allaire et al. 2021</a>)</span>.
-Or multiple citations <span class="citation">Xie, Allaire, and Grolemund (<a href="#ref-Xie2018" role="doc-biblioref">2018</a>)</span>.</p>
-<p>but they need a ; separator <span class="citation">(<a href="#ref-rmarkdown2021" role="doc-biblioref">Allaire et al. 2021</a>; <a href="#ref-Xie2018" role="doc-biblioref">Xie, Allaire, and Grolemund 2018</a>)</span>.</p>
-<p>In text, we can put citations like this <span class="citation">Allaire et al. (<a href="#ref-rmarkdown2021" role="doc-biblioref">2021</a>)</span>.</p>
-</div>
-<div id="fyi-boxes" class="section level3" number="3.1.7">
-<h3><span class="header-section-number">3.1.7</span> FYI boxes</h3>
-<div class="fyi">
-<p>Please click on the subsection headers in the left hand
-navigation bar (e.g., 2.1, 4.3) a second time to expand the
-table of contents and enable the <code>scroll_highlight</code> feature
-(<a href="introduction.html#scroll-highlight">see more</a>).</p>
-</div>
-</div>
-<div id="dropdown-summaries" class="section level3" number="3.1.8">
-<h3><span class="header-section-number">3.1.8</span> Dropdown summaries</h3>
-<details>
-<summary>
-You can hide additional information in a dropdown menu
-</summary>
-Here’s more words that are hidden.
-</details>
-</div>
-</div>
-<div id="print-out-session-info" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Print out session info</h2>
-<p>You should print out session info when you have code for <a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/managing-package-versions.html">reproducibility purposes</a>.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="topic-of-section.html#cb8-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
+<div id="about-the-authors" class="section level1 unnumbered">
+<h1>About the Authors</h1>
+<p>These credits are based on our <a href="https://github.com/jhudsl/OTTR_Template/wiki/How-to-give-credits">course contributors table guidelines</a>.</p>
+<p> 
+ </p>
+<table>
+<colgroup>
+<col width="58%" />
+<col width="41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Credits</th>
+<th>Names</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Pedagogy</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Lead Content Instructor(s)</td>
+<td><a href="link%20to%20personal%20website">FirstName LastName</a></td>
+</tr>
+<tr class="odd">
+<td>Lecturer(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved</td>
+<td>Delivered the course in some way - video or audio</td>
+</tr>
+<tr class="even">
+<td>Content Author(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved</td>
+<td>If any other authors besides lead instructor</td>
+</tr>
+<tr class="odd">
+<td>Content Contributor(s) (include section name/link in parentheses) - make new line if more than one section involved</td>
+<td>Wrote less than a chapter</td>
+</tr>
+<tr class="even">
+<td>Content Editor(s)/Reviewer(s)</td>
+<td>Checked your content</td>
+</tr>
+<tr class="odd">
+<td>Content Director(s)</td>
+<td>Helped guide the content direction</td>
+</tr>
+<tr class="even">
+<td>Content Consultants (include chapter name/link in parentheses or word “General”) - make new line if more than one chapter involved</td>
+<td>Gave high level advice on content</td>
+</tr>
+<tr class="odd">
+<td>Acknowledgments</td>
+<td>Gave small assistance to content but not to the level of consulting</td>
+</tr>
+<tr class="even">
+<td><strong>Production</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Content Publisher(s)</td>
+<td>Helped with publishing platform</td>
+</tr>
+<tr class="even">
+<td>Content Publishing Reviewer(s)</td>
+<td>Reviewed overall content and aesthetics on publishing platform</td>
+</tr>
+<tr class="odd">
+<td><strong>Technical</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Course Publishing Engineer(s)</td>
+<td>Helped with the code for the technical aspects related to the specific course generation</td>
+</tr>
+<tr class="odd">
+<td>Template Publishing Engineers</td>
+<td><a href="https://www.cansavvy.com/">Candace Savonen</a>, <a href="https://carriewright11.github.io/">Carrie Wright</a></td>
+</tr>
+<tr class="even">
+<td>Publishing Maintenance Engineer</td>
+<td><a href="https://www.cansavvy.com/">Candace Savonen</a></td>
+</tr>
+<tr class="odd">
+<td>Technical Publishing Stylists</td>
+<td><a href="https://carriewright11.github.io/">Carrie Wright</a>, <a href="https://www.cansavvy.com/">Candace Savonen</a></td>
+</tr>
+<tr class="even">
+<td>Package Developers (<a href="https://github.com/jhudsl/ottrpal">ottrpal</a>)</td>
+<td><a href="https://johnmuschelli.com/">John Muschelli</a>, <a href="https://www.cansavvy.com/">Candace Savonen</a>, <a href="https://carriewright11.github.io/">Carrie Wright</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Art and Design</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Illustrator(s)</td>
+<td>Created graphics for the course</td>
+</tr>
+<tr class="odd">
+<td>Figure Artist(s)</td>
+<td>Created figures/plots for course</td>
+</tr>
+<tr class="even">
+<td>Videographer(s)</td>
+<td>Filmed videos</td>
+</tr>
+<tr class="odd">
+<td>Videography Editor(s)</td>
+<td>Edited film</td>
+</tr>
+<tr class="even">
+<td>Audiographer(s)</td>
+<td>Recorded audio</td>
+</tr>
+<tr class="odd">
+<td>Audiography Editor(s)</td>
+<td>Edited audio recordings</td>
+</tr>
+<tr class="even">
+<td><strong>Funding</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Funder(s)</td>
+<td>Institution/individual who funded course including grant number</td>
+</tr>
+<tr class="even">
+<td>Funding Staff</td>
+<td>Staff members who help with funding</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
 <pre><code>## ─ Session info ───────────────────────────────────────────────────────────────
 ##  setting  value                       
 ##  version  R version 4.0.2 (2020-06-22)
@@ -362,7 +374,6 @@ Here’s more words that are hidden.
 ##  callr         3.4.4      2020-09-07 [1] RSPM (R 4.0.2)                    
 ##  cli           2.0.2      2020-02-28 [1] RSPM (R 4.0.0)                    
 ##  crayon        1.3.4      2017-09-16 [1] RSPM (R 4.0.0)                    
-##  curl          4.3        2019-12-02 [1] RSPM (R 4.0.3)                    
 ##  desc          1.2.0      2018-05-01 [1] RSPM (R 4.0.3)                    
 ##  devtools      2.3.2      2020-09-18 [1] RSPM (R 4.0.3)                    
 ##  digest        0.6.25     2020-02-23 [1] RSPM (R 4.0.0)                    
@@ -371,21 +382,18 @@ Here’s more words that are hidden.
 ##  fansi         0.4.1      2020-01-08 [1] RSPM (R 4.0.0)                    
 ##  fs            1.5.0      2020-07-31 [1] RSPM (R 4.0.3)                    
 ##  glue          1.6.1      2022-01-22 [1] CRAN (R 4.0.2)                    
-##  highr         0.8        2019-03-20 [1] RSPM (R 4.0.3)                    
 ##  hms           0.5.3      2020-01-08 [1] RSPM (R 4.0.0)                    
 ##  htmltools     0.5.0      2020-06-16 [1] RSPM (R 4.0.1)                    
-##  httr          1.4.2      2020-07-20 [1] RSPM (R 4.0.3)                    
 ##  jquerylib     0.1.4      2021-04-26 [1] CRAN (R 4.0.2)                    
 ##  knitr         1.33       2022-02-15 [1] Github (yihui/knitr@a1052d1)      
 ##  lifecycle     1.0.0      2021-02-15 [1] CRAN (R 4.0.2)                    
-##  magrittr    * 2.0.2      2022-01-26 [1] CRAN (R 4.0.2)                    
+##  magrittr      2.0.2      2022-01-26 [1] CRAN (R 4.0.2)                    
 ##  memoise       1.1.0      2017-04-21 [1] RSPM (R 4.0.0)                    
 ##  ottrpal       0.1.2      2022-02-15 [1] Github (jhudsl/ottrpal@1018848)   
 ##  pillar        1.4.6      2020-07-10 [1] RSPM (R 4.0.2)                    
 ##  pkgbuild      1.1.0      2020-07-13 [1] RSPM (R 4.0.2)                    
 ##  pkgconfig     2.0.3      2019-09-22 [1] RSPM (R 4.0.3)                    
 ##  pkgload       1.1.0      2020-05-29 [1] RSPM (R 4.0.3)                    
-##  png           0.1-7      2013-12-03 [1] CRAN (R 4.0.2)                    
 ##  prettyunits   1.1.1      2020-01-24 [1] RSPM (R 4.0.3)                    
 ##  processx      3.4.4      2020-09-03 [1] RSPM (R 4.0.2)                    
 ##  ps            1.3.4      2020-08-11 [1] RSPM (R 4.0.2)                    
@@ -409,17 +417,17 @@ Here’s more words that are hidden.
 ## 
 ## [1] /usr/local/lib/R/site-library
 ## [2] /usr/local/lib/R/library</code></pre>
+<!-- Author information -->
+<!-- Links -->
+<!-- Fill out this table using these instructions: https://github.com/jhudsl/OTTR_Template/wiki/How-to-give-credits
 
-</div>
-</div>
-<h3> References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-rmarkdown2021" class="csl-entry">
-Allaire, JJ, Yihui Xie, Jonathan McPherson, Javier Luraschi, Kevin Ushey, Aron Atkins, Hadley Wickham, Joe Cheng, Winston Chang, and Richard Iannone. 2021. <em>Rmarkdown: Dynamic Documents for r</em>. <a href="https://github.com/rstudio/rmarkdown">https://github.com/rstudio/rmarkdown</a>.
-</div>
-<div id="ref-Xie2018" class="csl-entry">
-Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://bookdown.org/yihui/rmarkdown">https://bookdown.org/yihui/rmarkdown</a>.
-</div>
+For JHU courses, You will need to add Ira as a credit:
+
+|Content Publisher|[Ira Gooding]|
+...
+[Ira Gooding]: https://publichealth.jhu.edu/faculty/4130/ira-gooding
+-->
+
 </div>
 <hr>
 <center> 
@@ -434,8 +442,8 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
           </div>
         </div>
       </div>
-<a href="a-new-chapter.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="topic-of-section.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
