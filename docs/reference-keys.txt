@@ -16,4 +16,5 @@ citation-examples
 fyi-boxes
 dropdown-summaries
 print-out-session-info
+borrowing-a-module-from-anvil_template
 references
