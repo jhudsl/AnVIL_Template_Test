@@ -164,7 +164,7 @@ In text, we can put citations like this @rmarkdown2021.
 
 ### FYI boxes
 
-::: {.fyi}
+::: {.notice}
 Please click on the subsection headers in the left hand
 navigation bar (e.g., 2.1, 4.3) a second time to expand the
 table of contents and enable the `scroll_highlight` feature
@@ -197,7 +197,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2022-08-08                  
+##  date     2022-08-17                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                            
