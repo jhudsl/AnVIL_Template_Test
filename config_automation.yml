@@ -22,8 +22,12 @@ url-check-periodically: yes
 ##### Renderings run upon merge to main branch #####
 # Rendering each platform's content
 render-website: rmd
-render-leanpub: no
-render-coursera: no
+render-leanpub: yes
+render-coursera: yes
+
+## Automate the creation of Book.txt file? yes/no
+## This is only relevant if render-leanpub is yes, otherwise it will be ignored
+make-book-txt: yes
 
 ##### Rendering of student guide (if applicable)
 render-student-guide: yes
